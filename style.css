@@ -1,0 +1,74 @@
+body {
+    font-family: 'Google Sans Code', monospace;
+    background-image: url('assets/chiidaytime1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.4s ease;
+}
+
+body.night {
+    background-image: url('assets/chiikawanighttime.png');
+}
+
+#theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Google Sans Code', monospace;
+}
+
+h2 {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.abt-section {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    border-radius: 16px;
+    text-align: center;
+    max-width: 300px;
+    margin: 40px auto;
+}
+
+.abt-section img {
+  display: block;
+  margin: 0 auto;
+}
+
+.hobbies-section {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    border-radius: 16px;
+    text-align: center;
+    max-width: 300px;
+    margin: 40px auto;
+}
+
+.hobbies-section img {
+  display: block;
+  margin: 0 auto;
+}
+
+.foods-section {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    border-radius: 16px;
+    text-align: center;
+    max-width: 300px;
+    margin: 40px auto;
+}
+
+.foods-section img {
+  display: block;
+  margin: 0 auto;
+}
